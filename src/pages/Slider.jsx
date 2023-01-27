@@ -64,7 +64,7 @@ return(
        key={id}
        onClick={()=>navigate(`/category/${data.type}/${id}`)}
        ><div className='swiperSlideDiv'>
-      <img src={data.imgUrls[0]} alt="" style={mystyle} height='300' width='1000'  />
+      <img src={data.imgUrls[0]} alt="" style={mystyle} height='300' width='100%'  />
         
       </div>
      
